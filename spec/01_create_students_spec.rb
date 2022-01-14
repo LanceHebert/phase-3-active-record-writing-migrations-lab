@@ -7,6 +7,7 @@ describe CreateStudents do
     
     # Manually runs the migration
     CreateStudents.new.change
+   
   end
 
   it 'has a name' do
